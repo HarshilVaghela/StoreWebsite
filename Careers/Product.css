@@ -1,0 +1,30 @@
+ #p-float::after {
+        /* Clearfix */
+        content: "";
+        clear: both;
+        display: table;
+      }
+      /* Product items */
+      div.p-float {
+        float: left;
+        width: 33%;
+      }
+      div.p-float-in {
+        box-sizing: border-box;
+        margin: 5px; 
+        padding: 10px;
+        border: 1px solid #f2dcdc;
+        background: #fff7f7;
+     
+	 @media only screen and (max-width: 1024px) {
+        div.p-float { width: 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        div.p-float { width: 50%; }
+      }
+#p-float {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* Clearfix */
+        overflow: auto;
+      }

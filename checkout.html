@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style2.css">
+<title>Checkout</title>
+</head>
+<body>
+
+<div class="header">
+  <a href="home.html" class="logo"><img src="logo.jpg" height="50px" > </a>
+  <div class="header-right">
+    <a href="home.html">Home</a>
+    <a href="Shopping.html">Shopping</a>
+    <a href="Account.html">Account</a>
+    <a href="Reviews& Feedback.html">Reviews& Feedback</a>
+    <a href="Careers.html">Careers</a>
+    
+    <a href="contact.html">Contact</a>
+    <a class="active" href="checkout.html">Checkout</a>
+  </div>
+</div>
+<table style="border:none;">
+	<tr>
+		<td>Billing address</td><td style="width:100px;"></td>
+		<td>Payment</td>
+	</tr>
+	<tr>
+		<td>Full name:<br><input name="Fname"></td><td></td>
+		<td>Name on card:<br><input name="Cname"></td>
+	</tr>
+	<tr>
+		<td>Email address:<br><input name="E-mail"></td><td></td>
+		<td>Credit card number:<br><input name="Cname"></td>
+	</tr>
+	<tr>
+		<td>Address:<br><input name="Address"></td><td></td>
+		<td>Expire month:<br><input name="month"></td>
+	</tr>
+	<tr>
+		<td>City and state:<br><input name="Cstate"></td><td></td>
+		<td>Expiry year:<br><input name="Eyear" ></td>
+	</tr>
+	<tr>
+		<td>Zip:<br><input name="zip"></td><td></td>
+		<td>CVV:<br><input name="Cvv"></td>
+	</tr>
+
+</table>
+<input type="checkbox" name="Saddress"> shipping address same as billing
+<p><br /></p>
+<table style="border:none;">
+	<tr>
+		<td>Products</td><td style="width:100px;"></td>
+		<td>Price</td>
+	</tr>
+	<tr>
+		<td>Product1</td><td></td>
+		<td>$0.00</td>
+	</tr>
+	<tr>
+		<td>Product2</td><td></td>
+		<td>$0.00</td>
+	</tr>
+	<tr>
+		<td>Product3</td><td></td>
+		<td>$0.00</td>
+	</tr>
+	<tr>
+		<td>Product4</td><td></td>
+		<td>$0.00</td>
+	</tr>
+	<tr>
+		<td>.....</td><td></td>
+		<td>....</td>
+	</tr>
+	<tr >
+		<td>Total</td><td></td>
+		<td style="border:1px solid black;">$0.00</td>
+	</tr>
+</table>
+<p> how would you like to recieve your order?</p>
+<input type="radio" name="opt" value="del" >delivery<br>
+<input type="radio" name="opt" value="pic">Pick up<br>
+<p><br /></p>
+  <input type="submit" value="Submit" style="width:80px;height:30px;">
+
+</body>
+</html>
